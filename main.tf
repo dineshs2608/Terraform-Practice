@@ -33,3 +33,11 @@ provider "azurerm" {
 module "rg" {
   source = "git@github.com:dineshs2608/Terraform-module.git"
 }
+
+module "nsg" {
+  source = "git@github.com:dineshs2608/Terraform-module.git"
+}
+
+module "Vnet" {
+  source = "git@github.com:dineshs2608/Terraform-module.git"
+}
