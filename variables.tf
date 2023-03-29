@@ -16,9 +16,9 @@ variable container_name {
   default = "statefile"
 }
 
-# variable access_key {
-#   default = 
-# }
+variable access_key {
+  default = "BT62kjMDWDWr18IErvSt8g5+K2pXS3IITyR+kckVn1gKVQp6jUk4n7wwtgIL/SfBlc++vHaBsJPW+AStvtBv+g=="
+}
 
 ############################
 #  provider block

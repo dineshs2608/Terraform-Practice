@@ -8,11 +8,11 @@ terraform {
   }
   #Backend storage of state file
   backend "azurerm" {
-      subscription_id = var.subscription_id
-      tenant_id = var.tenant_id
-      resource_group_name  = var.resource_group_name
-      storage_account_name = var.storage_account_name
-      container_name       = var.container_name
+      subscription_id = "47ec7704-3c94-4cb1-b3c3-d0b77c2f60bf"
+      tenant_id = "313f4e52-ec58-4a95-88d5-38c5e54f5c47"
+      resource_group_name  = "backend"
+      storage_account_name = "muu"
+      container_name       = "statefile"
       access_key           = "BT62kjMDWDWr18IErvSt8g5+K2pXS3IITyR+kckVn1gKVQp6jUk4n7wwtgIL/SfBlc++vHaBsJPW+AStvtBv+g=="
   }
 
