@@ -9,7 +9,7 @@ terraform {
 }
 #Backend storage of state file
  backend "azurerm" {
-      subscrption_id = var.subscription_id
+      subscription_id = var.subscription_id
       tenant_id = var.tenant_id
       resource_group_name  = var.resource_group_name
       storage_account_name = var.storage_account_name
