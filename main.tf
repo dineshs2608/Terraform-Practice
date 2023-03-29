@@ -13,7 +13,7 @@ terraform {
       resource_group_name  = var.resource_group_name
       storage_account_name = var.storage_account_name
       container_name       = var.container_name
-      access_key           = var.key
+      access_key           = "BT62kjMDWDWr18IErvSt8g5+K2pXS3IITyR+kckVn1gKVQp6jUk4n7wwtgIL/SfBlc++vHaBsJPW+AStvtBv+g=="
   }
 
 }
