@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"rg","Source":"git::ssh://git@github.com/dineshs2608/Terraform-module.git","Dir":".terraform/modules/rg"}]}
