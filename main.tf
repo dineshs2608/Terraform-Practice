@@ -43,6 +43,5 @@ module "nsg" {
 
 module "Vnet" {
   source = "git@github.com:dineshs2608/Terraform-module.git"
-  vnet-name = "practice-vnet"
 }
 
