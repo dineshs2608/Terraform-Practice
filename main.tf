@@ -31,18 +31,18 @@ provider "azurerm" {
 }
 
 module "rg" {
-  source = "git@github.com:dineshs2608/Terraform-module.git"
+  source = "../Modules/rg"
   rgname = "practice-rg"
   location = "south india"
 }
 
 module "nsg" {
-  source = "git@github.com:dineshs2608/Terraform-module.git"
+  source = "../Modules/nsg"
   nsgname = "practice-nsg"
 }
 
 module "Vnet" {
-  source = "git@github.com:dineshs2608/Terraform-module.git"
+  source = "../Modules/Vnet"
   vnet-name = "practice-vnet"
 }
 
