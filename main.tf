@@ -43,7 +43,7 @@ module "nsg" {
 
 module "Vnet" {
   source = "../Modules/Vnet"
-  vnet-name = "practice-vnet"
+  vnetname = "practice-vnet"
   tags = "Dev Environment"
 }
 
