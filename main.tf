@@ -40,7 +40,10 @@ module "resource_group_name" {
 #   source = "../Modules/nsg"
 #   nsgname = "practice-nsg"
 # }
-
+data "azurerm_resource_group" "practice-rg"{
+    name     = var.rgname
+  location = var.location
+}
 module "Virtual_network" {
   source = "../Modules/Vnet"
   vnet-name = "practice-vnet23"
