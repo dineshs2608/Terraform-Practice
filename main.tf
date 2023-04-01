@@ -45,5 +45,9 @@ module "Virtual_network" {
   source = "../Modules/Vnet"
   vnet-name = "practice-vnet23"
   tags = "Dev Environment"
+
+depends_on = [
+  module.resource_group_name
+]
 }
 

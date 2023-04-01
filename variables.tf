@@ -57,13 +57,13 @@ variable location {
   default = "central india"
 }
 
-############################
-#  nsg
-###########################
-variable nsgname {
-  type = string
-  default = "practice-nsg"
-}
+# ############################
+# #  nsg
+# ###########################
+# variable nsgname {
+#   type = string
+#   default = "practice-nsg"
+# }
 
 ############################
 #  vnet
