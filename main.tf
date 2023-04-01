@@ -36,10 +36,10 @@ module "resource_group_name" {
   location = "south india"
 }
 
-module "network_security_group" {
-  source = "../Modules/nsg"
-  nsgname = "practice-nsg"
-}
+# module "network_security_group" {
+#   source = "../Modules/nsg"
+#   nsgname = "practice-nsg"
+# }
 
 module "Virtual_network" {
   source = "../Modules/Vnet"
