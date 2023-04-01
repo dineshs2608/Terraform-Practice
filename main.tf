@@ -30,20 +30,20 @@ provider "azurerm" {
 
 }
 
-module "rg" {
+module "resource_group_name" {
   source = "../Modules/rg"
   rgname = "practice-rg"
   location = "south india"
 }
 
-module "nsg" {
+module "network_security_group" {
   source = "../Modules/nsg"
   nsgname = "practice-nsg"
 }
 
-module "Vnet" {
+module "Virtual_network" {
   source = "../Modules/Vnet"
-  vnetname = "practice-vnet"
+  vnet-name = "practice-vnet"
   tags = "Dev Environment"
 }
 
