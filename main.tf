@@ -43,7 +43,7 @@ module "resource_group_name" {
 
 module "Virtual_network" {
   source = "../Modules/Vnet"
-  vnet-name = "practice-vnet"
+  vnet-name = "practice-vnet23"
   tags = "Dev Environment"
 }
 
